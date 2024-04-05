@@ -29,7 +29,7 @@ Imports = {
     "sklearn": find_spec("sklearn") is not None,
     "statsmodels": find_spec("statsmodels") is not None,
     "stochastic": find_spec("stochastic") is not None,
-    "talib": find_spec("talib") is not None,
+    "talib": None, #find_spec("talib") is not None,
     "tqdm": find_spec("tqdm") is not None,
     "vectorbt": find_spec("vectorbt") is not None,
     "yfinance": find_spec("yfinance") is not None,
